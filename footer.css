@@ -1,0 +1,186 @@
+footer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+} /* Klar */
+
+.footer-content {
+  background-color: #023439;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.25rem;
+  padding: 0.7rem 3.19rem 1rem 1.5rem;
+} /* Klar */
+
+.footer-top {
+  height: 24px;
+} /* Klar */
+
+.footer-content h3 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 3px 0;
+} /* Klar */
+
+.footer-section {
+  text-align: left;
+} /* Kanske? */
+
+.footer-bottom {
+  background-color: #ed4e0a;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+} /* Klar */
+
+.footer-settings {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+} /* Klar */
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} /* Klar */
+
+li {
+  margin-bottom: 0.1rem;
+} /* Klar!!! */
+
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+} /* Klar */
+
+.footer p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+} /* Klar */
+
+.icon {
+  border-radius: 0.125rem;
+  border: 1px solid var(--main-text, #FFF);
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+} /* Klar */
+
+.icon-links {
+  display: flex;
+  gap: 10px;
+} /* Klar */
+
+.footer-button {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300; /* för tjocj?? */
+  display: inline-flex;
+  height: 1.875rem;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.0625rem;
+  border: 1px solid var(--text-main, #fff);
+  background-color: #023439;
+} /* Klar */
+
+.footer-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+} /* Klar */
+
+.footer-yeti {
+  position: absolute;
+  bottom: 17%; /* Anpassar sig efter höjden av det relativa föräldraelementet */
+  right: -7%; /* Behåller den ursprungliga designen */
+  width: 90px;
+} /* Klar */
+
+@media (min-width: 1200px) {
+  .footer-content {
+      grid-gap: 12rem;
+      padding: 10% 50% 8% 20%;
+  }
+
+  .footer p {
+      font-size: 2.5rem;
+  }
+
+  .footer-top {
+      height: 24px;
+  }
+
+  .footer-content h3 {
+      font-size: 2.8rem;
+      margin: 0.25rem 0;
+  }
+
+  .footer-section ul li a {
+      font-size: 1.75rem;
+  }
+
+  .footer-bottom {
+      height: 6.5rem;
+      padding: 1rem 1.25rem; /* Ändra! */
+  }
+
+  .footer-settings {
+      gap: 26px; /* ändra? */
+  }
+
+  .icon {
+      border-radius: 0.3125rem;
+      border: 2px solid var(--main-text, #FFF); /* ta bort färg? */
+      width: 3.75rem;
+      height: 3.75rem;
+      padding: 0.625rem;
+      gap: 0.625rem;
+  }
+
+  .icon-links {
+      gap: 26px;
+  }
+
+  .footer-button {
+      font-size: 2.5rem;
+      font-weight: 300; /* för tjocj?? */
+      height: 4.6875rem;
+      padding: 0.625rem;
+      gap: 0.625rem;
+      border-radius: 0.3125rem;
+      border: 2px solid var(--main-text, #FFF);
+      
+  }
+
+  .footer-button svg {
+      width: 34px; /* justera!! */
+      height: 34px;
+  }
+
+  .footer-yeti {
+      bottom: 9.5%; /* Anpassar sig efter höjden av det relativa föräldraelementet */
+      right: -7%; /* Behåller den ursprungliga designen */
+      width: 275px;
+  }
+}
+
+
+
+  

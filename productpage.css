@@ -1,0 +1,1388 @@
+
+
+.productpage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100vw;
+  padding: 26px 23px 12px 23px;
+  background-color: #e7ebee;
+}
+
+.products-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 608px;
+}
+
+.products-container h1 {
+  position: relative;
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  left: 10px;
+}
+
+.products-container h4 {
+  position: relative;
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.products {
+  position: relative;
+  width: 354px;
+  height: 220px;
+  flex-shrink: 0;
+  left: 5px;
+  top: 15px;
+}
+
+.products-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.productdescription {
+  position: relative;
+  background-color: #023439;
+  width: 100%;
+  height: 58px;
+  margin: 0;
+  top: -40px;
+}
+
+.productdescription h3 {
+  position: relative;
+  left: 20px;
+  color: var(--main-text, #fff);
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.productdescription p {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  color: var(--main-text, #fff);
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.product-preorder {
+  position: relative;
+  top: -37px;
+  right: -212px;
+  border-radius: 1px;
+  border: 2px solid var(--main-text, #fff);
+  background: var(--main-brand-green, #023439);
+  color: var(--main-text, #fff);
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  height: 35px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease-out;
+}
+
+.products2 {
+  position: relative;
+  width: 356px;
+  height: 220px;
+  flex-shrink: 0;
+  top: 10px;
+}
+
+.productdescription2 {
+  position: relative;
+  background-color: #023439;
+  width: 100%;
+  height: 58px;
+  margin: 0;
+  top: -5px;
+}
+
+.productdescription2 h3 {
+  position: relative;
+  left: 20px;
+  color: var(--main-text, #fff);
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.productdescription2 p {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  color: var(--main-text, #fff);
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.product-preorder2 {
+  position: relative;
+  top: -37px;
+  right: -212px;
+  border-radius: 1px;
+  border: 2px solid var(--main-text, #fff);
+  background: var(--main-brand-green, #023439);
+  color: var(--main-text, #fff);
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  height: 35px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease-out;
+}
+
+.discoverproduct {
+  position: relative;
+  display: flex;
+  width: 268px;
+  height: 46px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 1px;
+  border: 3px solid var(--main-text, #fff);
+  background: var(--main-brand-green, #023439);
+  margin: 0 auto;
+  bottom: -10px;
+  color: var(--main-text, #fff);
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s ease-out;
+}
+
+.discoverproduct:hover,
+.product-preorder:hover,
+.product-preorder2:hover,
+.product-preorder3:hover,
+.product-preorder4:hover,
+.product-preorderback:hover {
+  border-radius: 1px;
+  border: 1px solid var(--main-brand-green, #023439);
+  background: var(--main-text, #fff);
+  color: black;
+  cursor: pointer;
+}
+
+.discoverproduct:active,
+.product-preorder:active,
+.product-preorder2:active,
+.product-preorder3:active,
+.product-preorder4:active,
+.product-preorderback:active {
+  border-radius: 1px;
+  border: 2px solid var(--main-text, #fff);
+  background: var(--main-brand-orange, #ed4e0a);
+  color: #fff;
+}
+
+.products3,
+.products4,
+.products {
+  display: none;
+}
+
+/* THE CARD HOLDS THE FRONT AND BACK FACES */
+.thecard {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+/* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+.thefront {
+  position: absolute;
+  left: 1px;
+  width: 100%;
+  height: 220px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  color: #000;
+  z-index: 1;
+}
+
+.pantsfront1 {
+  position: relative;
+  margin: 0;
+  top: -40px;
+  width: 100%;
+  height: 168px;
+}
+.pantsfront1 img {
+  height: 168px;
+  margin: 0;
+}
+
+.transition {
+  position: relative;
+  margin: 0;
+  top: 0px;
+  left: 300px;
+  height: 40px;
+  width: 40px;
+  z-index: 2;
+}
+
+.transition2 {
+  position: relative;
+  margin: 0;
+  left: 300px;
+  height: 40px;
+  width: 40px;
+  z-index: 20;
+  top: 0px;
+}
+
+.thecard.flip {
+  transform: rotateY(180deg);
+}
+
+/* #update:checked ~ .theback {
+  transform: rotateY(180deg);
+} */
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback {
+  position: absolute;
+  width: 356px;
+  height: 220px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  color: #333;
+  text-align: center;
+  transform: rotateY(180deg);
+  margin: 0;
+  z-index: 1;
+}
+
+.pantsfront {
+  position: relative;
+  width: 206px;
+  height: 168px;
+  margin: 0;
+  left: 150px;
+  top: -40px;
+}
+
+.pantsfront img {
+  position: relative;
+  width: 206px;
+  height: 168px;
+  margin: 0;
+  object-fit: cover;
+}
+
+.pantsback {
+  position: relative;
+  width: 150px;
+  max-height: 84px;
+  margin: 0;
+  top: -208px;
+}
+.pantsback img {
+  position: relative;
+  width: 150px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.pantszoom {
+  position: relative;
+  width: 150px;
+  height: 84px;
+  margin: 0;
+  top: -208px;
+}
+
+.pantszoom img {
+  width: 150px;
+  height: 84px;
+  margin: 0;
+  object-fit: cover;
+}
+
+.productdescriptionback {
+  position: relative;
+  background-color: #023439;
+  width: 100%;
+  height: 58px;
+  margin: 0;
+  top: -210px;
+}
+
+.productdescriptionback h3 {
+  position: relative;
+  left: -120px;
+  color: var(--main-text, #fff);
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.productdescriptionback p {
+  position: relative;
+  top: 5px;
+  left: -145px;
+  color: var(--main-text, #fff);
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.product-preorderback {
+  position: relative;
+  top: -37px;
+  right: -212px;
+  border-radius: 1px;
+  border: 2px solid var(--main-text, #fff);
+  background: var(--main-brand-green, #023439);
+  color: var(--main-text, #fff);
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  height: 35px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease-out;
+}
+
+
+
+@media (min-width: 600px) {
+  .productpage-container {
+    position: relative;
+    padding: 0 23px 92px 23px;
+    height: 200vh;
+  }
+  .products-container {
+    position: relative;
+    top: -650px;
+  }
+
+  .products-container h1 {
+    font-size: 96px;
+    top: 0px;
+  }
+
+  .products-container h4 {
+    font-size: 40px;
+  }
+
+  .products {
+    display: block;
+    position: relative;
+    width: 49%;
+    height: 670px;
+    flex-shrink: 0;
+    left: 5px;
+    top: 15px;
+  }
+
+  .products-container img {
+    width: 100%;
+    height: 507px;
+    object-fit: cover;
+  }
+
+  .productdescription {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+  }
+
+  .productdescription h3 {
+    font-size: 50px;
+    top: 15px;
+  }
+
+  .productdescription p {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    margin: 0;
+  }
+
+  .product-preorder svg {
+    display: none;
+  }
+
+  .product-preorder {
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -71%;
+  }
+
+  .products2 {
+    position: relative;
+    width: 49%;
+    height: 670px;
+    flex-shrink: 0;
+    left: 5px;
+    top: 98px;
+  }
+
+  .products-container2 img {
+    width: 100%;
+    height: 507px;
+  }
+
+  .productdescription2 {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+  }
+
+  .productdescription2 h3 {
+    font-size: 50px;
+    top: 15px;
+  }
+
+  .productdescription2 p {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    margin: 0;
+  }
+
+  .product-preorder2 svg {
+    display: none;
+  }
+
+  .product-preorder2 {
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -71%;
+  }
+
+  .products4 {
+    display: block;
+    position: relative;
+    width: 49%;
+    height: 670px;
+    flex-shrink: 0;
+    left: 950px;
+    top: -1242px;
+  }
+
+  .products-container4 img {
+    width: 100%;
+    height: 507px;
+  }
+
+  .productdescription4 {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+    top: -5px;
+  }
+
+  .productdescription4 h3 {
+    position: relative;
+    font-size: 50px;
+    top: 15px;
+    left: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .productdescription4 p {
+    position: relative;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    left: 20px;
+    margin: 0;
+  }
+
+  .product-preorder4 svg {
+    display: none;
+  }
+
+  .product-preorder4 {
+    position: relative;
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -71%;
+    transition: 0.3s ease-out;
+  }
+
+  .products3 {
+    display: block;
+    position: relative;
+    width: 49%;
+    height: 670px;
+    flex-shrink: 0;
+    left: 950px;
+    top: -1325px;
+  }
+
+  .products-container3 img {
+    width: 100%;
+    height: 507px;
+  }
+
+  .productdescription3 {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+    top: -5px;
+  }
+
+  .productdescription3 h3 {
+    position: relative;
+    font-size: 50px;
+    top: 15px;
+    left: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .productdescription3 p {
+    position: relative;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    left: 20px;
+    margin: 0;
+  }
+
+  .product-preorder3 svg {
+    display: none;
+  }
+
+  .product-preorder3 {
+    position: relative;
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -71%;
+    transition: 0.3s ease-out;
+  }
+
+  .discoverproduct {
+    display: flex;
+    width: 722px;
+    height: 138px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 3px solid var(--main-text, #fff);
+    background: var(--main-brand-green, #023439);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 auto;
+    left: 480px;
+    top: 100px;
+  }
+ 
+}
+
+@media (min-width: 1200px) {
+  .productpage-container {
+    position: relative;
+    padding: 100px 23px 100px 23px;
+    height: 200vh;
+    overflow: hidden;
+  }
+  .products-container {
+    position: relative;
+    top: -650px;
+  }
+
+  .products-container h1 {
+    font-size: 96px;
+    top: 0px;
+  }
+
+  .products-container h4 {
+    font-size: 40px;
+  }
+
+  .products {
+    display: block;
+    position: relative;
+    width: 49%;
+    max-width: 722px;
+    height: 670px;
+    flex-shrink: 0;
+    left: -5px;
+    top: 15px;
+  }
+
+  .products-container img {
+    width: 100%;
+    height: 507px;
+  }
+
+  .productdescription {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+    top: -5px;
+  }
+
+  .productdescription h3 {
+    font-size: 50px;
+    top: 15px;
+  }
+
+  .productdescription p {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    margin: 0;
+  }
+
+  .product-preorder svg {
+    display: none;
+  }
+
+  .product-preorder {
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -65%;
+  }
+
+  .products2 {
+    display: block;
+    max-width: 722px;
+  }
+
+  .products-container2 img {
+    max-width: 100%;
+    height: 507px;
+  }
+
+  .gif {
+    position: relative;
+    top: -510px;
+    margin: 0;
+    opacity: 0;
+  }
+
+  .gif:hover {
+    opacity: 1;
+  }
+
+  .productdescription2 {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+    top: -5px;
+  }
+
+  .productdescription2 h3 {
+    font-size: 50px;
+    top: 15px;
+  }
+
+  .productdescription2 p {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    margin: 0;
+  }
+
+  .product-preorder2 svg {
+    display: none;
+  }
+
+  .product-preorder2 {
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -65%;
+  }
+
+  .products4 {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 722px;
+    height: 670px;
+    flex-shrink: 0;
+    left: 0px;
+    top: 13px;
+  }
+
+  .products-container4 img {
+    width: 100%;
+    height: 507px;
+  }
+
+  .productdescription4 {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+    top: -516px;
+  }
+
+  .productdescription4 h3 {
+    position: relative;
+    font-size: 50px;
+    top: 15px;
+    left: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .productdescription4 p {
+    position: relative;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    left: 20px;
+    margin: 0;
+  }
+
+  .product-preorder4 svg {
+    display: none;
+  }
+
+  .product-preorder4 {
+    position: relative;
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -65%;
+  }
+
+  .products3 {
+    max-width: 722px;
+    display: block;
+    position: relative;
+    width: 49%;
+    height: 670px;
+    flex-shrink: 0;
+    left: 745px;
+    top: -1325px;
+  }
+
+  .bigfrontjacket {
+    position: relative;
+    width: 100%;
+    height: 507px;
+    top: -70px;
+  }
+
+  .productdescription3 {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+    top: -70px;
+  }
+
+  .productdescription3 h3 {
+    position: relative;
+    font-size: 50px;
+    top: 15px;
+    left: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .productdescription3 p {
+    position: relative;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    left: 20px;
+    margin: 0;
+  }
+
+  .product-preorder3 svg {
+    display: none;
+  }
+
+  .product-preorder3 {
+    position: relative;
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -65%;
+  }
+
+  .product-preorder3:hover {
+    border-radius: 1px;
+    border: 2px solid #023439;
+    background: var(--main-text, #fff);
+    color: black;
+    cursor: pointer;
+  }
+
+  .product-preorder3:active {
+    border-radius: 1px;
+    border: 2px solid var(--main-text, #fff);
+    background: var(--main-brand-orange, #ed4e0a);
+    color: #fff;
+  }
+
+  .discoverproduct {
+    display: flex;
+    width: 722px;
+    height: 138px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 3px solid var(--main-text, #fff);
+    background: var(--main-brand-green, #023439);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 auto;
+    left: 375px;
+    top: 60px;
+  }
+
+  .thecard {
+    display: none;
+  }
+
+  .expand {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+  }
+
+  .expand:hover {
+    cursor: pointer;
+  }
+
+  .additional-content {
+    background-color: #023439;
+    position: absolute;
+    top: -0.5px;
+    width: 1472px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    margin: 0;
+    z-index: -5;
+    overflow: hidden;
+  }
+
+  .bigpicture {
+    position: relative;
+    width: 722px;
+    height: 507px;
+    top: 440px;
+    left: 375px;
+  }
+
+  .picture1 {
+    position: relative;
+    width: 194px;
+    height: 169px;
+    margin: 0;
+    top: -67px;
+    left: -83px;
+  }
+
+  .picture1 img {
+    object-fit: cover;
+    width: 194px;
+    height: 169px;
+  }
+
+  .picture2 {
+    position: relative;
+    width: 194px;
+    height: 169px;
+    margin: 0;
+    left: -83px;
+    top: -67px;
+  }
+
+  .picture2 img {
+    object-fit: cover;
+    width: 194px;
+    height: 169px;
+  }
+
+  .picture3 {
+    position: relative;
+    width: 194px;
+    height: 169px;
+    margin: 0;
+    left: -83px;
+    top: -67px;
+  }
+
+  .picture3 img {
+    object-fit: cover;
+    width: 194px;
+    height: 169px;
+  }
+
+  .picture1 img:hover,
+  .picture2 img:hover,
+  .picture3 img:hover {
+    cursor: pointer;
+    border: 4px solid var(--main-brand-orange, #ed4e0a);
+  }
+
+  .products3.expanded {
+    width: 758px; /* Double the original width */
+  }
+
+  .products3.expanded .additional-content {
+    left: -750px; /* Width of original card */
+    opacity: 1;
+    transition: 0.3s ease-out;
+  }
+
+  .expand-back {
+    position: relative;
+    margin: 0;
+    color: var(--main-text, var(--Color-7, #fff));
+    font-family: "IBM Plex Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: -530px;
+    left: -625px;
+    display: flex;
+    padding: 10px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .expand-back:hover {
+    cursor: pointer;
+  }
+
+  .productdescription3-back {
+    position: relative;
+    background-color: #023439;
+    width: 100%;
+    height: 163px;
+    top: -441px;
+    margin: 0;
+  }
+
+  .productdescription3-back h3 {
+    position: relative;
+    font-size: 50px;
+    top: 15px;
+    left: 30px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    width: 200px;
+  }
+
+  .productdescription3-back p {
+    position: relative;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    top: 20px;
+    color: var(--main-text, #fff);
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    left: 30px;
+    margin: 0;
+    width: 200px;
+  }
+
+  .product-preorder3-back {
+    position: relative;
+    display: flex;
+    height: 95px;
+    width: 230px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 4px solid var(--main-text, #fff);
+    background: var(--button-secondary, #05535a);
+    color: var(--main-text, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: -80px;
+    right: -82%;
+  }
+
+  .product-preorder3-back:hover {
+    border-radius: 1px;
+    border: 2px solid #023439;
+    background: var(--main-text, #fff);
+    color: black;
+    cursor: pointer;
+  }
+
+  .product-preorder3-back:active {
+    border-radius: 1px;
+    border: 2px solid var(--main-text, #fff);
+    background: var(--main-brand-orange, #ed4e0a);
+    color: #fff;
+  }
+
+  .back-line {
+    position: relative;
+    width: 352px;
+    height: 1px;
+    background-color: #fff;
+    top: -500px;
+    left: -525px;
+    border: 1px solid #fff;
+  }
+
+  .back-line2 {
+    position: relative;
+    width: 352px;
+    height: 2px;
+    background-color: #fff;
+    top: -442px;
+    left: -525px;
+    border: 1px solid #fff;
+  }
+
+  .back-text {
+    width: 400px;
+    height: 100%;
+    position: relative;
+    top: -450px;
+    left: -515px;
+  }
+
+  .back-text h4 {
+    color: var(--main-text, var(--Color-7, #fff));
+
+    /* Desktop/H4/Secondary/S/Bold */
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    width: 100px;
+  }
+
+  .back-text h5 {
+    color: var(--main-text, var(--Color-7, #fff));
+
+    /* Desktop/H5/Tertiary/XS/Light */
+    font-family: "IBM Plex Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .h4-price,
+  .h5-price {
+    position: relative;
+    left: 20px;
+    width: 200px;
+  }
+
+  .h4-color,
+  .h5-color {
+    position: relative;
+    top: -90px;
+    left: 300px;
+    width: 100px;
+  }
+
+  .h4-spec,
+  .h5-spec {
+    position: relative;
+    top: -60px;
+    left: 20px;
+  }
+
+  .h5-spec {
+    width: 400px;
+  }
+}
